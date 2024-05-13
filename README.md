@@ -55,7 +55,7 @@ This e-commerce website encompasses all the essential features and functionaliti
     - Use Git or your preferred method to clone the repository onto your local machine.
 
 2. **Place Website Files:**
-    - Transfer the website files from the cloned repository and place them within the `C:\xampp\htdocs\projectdone` folder.
+    - Transfer the website files from the cloned repository and place them within the `C:\xampp\htdocs\e-commerce` folder.
 
 3. **Start the Web Server:**
     - Launch your web server and ensure it is configured properly.
