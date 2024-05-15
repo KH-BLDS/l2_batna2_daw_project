@@ -78,8 +78,6 @@ if (isset($_GET['delete'])) {
    $delete_product->execute([$delete_id]);
    $delete_cart = $conn->prepare("DELETE FROM `cart` WHERE pid = ?");
    $delete_cart->execute([$delete_id]);
-   $delete_wishlist = $conn->prepare("DELETE FROM `wishlist` WHERE pid = ?");
-   $delete_wishlist->execute([$delete_id]);
    header('location:products.php');
 }
 
@@ -162,7 +160,7 @@ if (isset($_GET['delete'])) {
                <div class="box">
                   <img src="../uploaded_img/<?= $fetch_products['image_01']; ?>" alt="">
                   <div class="name"><?= $fetch_products['name']; ?></div>
-                  <div class="price"><?= number_format($fetch_product['price'], 2) ?> DZD</div>
+                  <div class="price"><?= number_format($fetch_products['price'], 2) ?> DZD</div>
                   <div class="details"><span><?= $fetch_products['details']; ?></span></div>
                   <div class="flex-btn">
                      <a href="update_product.php?update=<?= $fetch_products['id']; ?>" class="option-btn">update</a>
