@@ -31,7 +31,7 @@
          <a href="https://www.facebook.com/khaled.beladis/" target="_blank"><i
                class="fab fa-facebook-f"></i>facebook</a>
          <a href="https://twitter.com/KH_BLDS" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
-         <a href="https://www.instagram.com/k.h.__.b.l.d.s?igsh=OGQ5ZDc2ODk2ZA==" target="_blank"><i
+         <a href="https://www.instagram.com/k.h.__.b.l.d.s" target="_blank"><i
                class="fab fa-instagram"></i>Instagram</a>
          <a href="https://www.linkedin.com/in/khaled-beladis-21723424a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
