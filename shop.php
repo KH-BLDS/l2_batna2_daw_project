@@ -53,7 +53,6 @@ include 'components/wishlist_cart.php';
                   <input type="hidden" name="name" value="<?= $fetch_product['name']; ?>">
                   <input type="hidden" name="price" value="<?= $fetch_product['price']; ?>">
                   <input type="hidden" name="image" value="<?= $fetch_product['image_01']; ?>">
-                  <button class="fas fa-heart" type="submit" name="add_to_wishlist"></button>
                   <a href="quick_view.php?pid=<?= $fetch_product['id']; ?>" class="fas fa-eye"></a>
                   <img src="uploaded_img/<?= $fetch_product['image_01']; ?>" alt="">
                   <div class="name"><?= $fetch_product['name']; ?></div>
